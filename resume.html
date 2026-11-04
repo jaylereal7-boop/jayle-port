@@ -1,0 +1,169 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jayle Marthaniel E. Real | Resume</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <style>
+        /* GENERAL */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: "Nunito Sans", sans-serif;
+            color: #f8fff9;
+            background: #073b2d;
+            min-height: 100vh;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        /* HEADER */
+        .resume-header {
+            width: 100%;
+            padding: 20px 6%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: #073729;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+        }
+
+        .brand {
+            font-size: 1.1rem;
+            font-weight: 900;
+            letter-spacing: 1px;
+        }
+
+        .back-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            padding: 11px 20px;
+            background: linear-gradient(100deg, #246d45, #548c42);
+            border: 1px solid rgba(255,255,255,0.3);
+            border-radius: 8px;
+            font-size: 0.9rem;
+            font-weight: 800;
+            transition: 0.3s;
+        }
+
+        .back-btn:hover {
+            color: #d9f58b;
+            transform: translateY(-3px);
+            filter: brightness(1.1);
+        }
+
+        /* RESUME SECTION */
+        .resume-section {
+            width: 100%;
+            max-width: 1050px;
+            margin: auto;
+            padding: 55px 25px 70px;
+            text-align: center;
+        }
+
+        .section-kicker {
+            color: #d7f2dc;
+            font-size: 0.8rem;
+            font-weight: 900;
+            letter-spacing: 3px;
+        }
+
+        h1 {
+            margin: 10px 0;
+            font-size: 2.8rem;
+            font-weight: 900;
+        }
+
+        .description {
+            margin-bottom: 35px;
+            color: #d5e6d9;
+            font-size: 1rem;
+        }
+
+        /* RESUME IMAGE */
+        .resume-image-container {
+            width: 100%;
+            max-width: 850px;
+            margin: auto;
+            padding: 12px;
+            background: rgba(0, 48, 32, 0.75);
+            border: 2px solid rgba(215, 255, 223, 0.55);
+            border-bottom: 5px solid #a5c83b;
+            border-radius: 14px;
+            box-shadow: 0 18px 45px rgba(0, 24, 15, 0.3);
+        }
+
+        .resume-image {
+            display: block;
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        /* FOOTER */
+        .resume-footer {
+            padding: 20px;
+            text-align: center;
+            color: #e0eee3;
+            background: #073729;
+            border-top: 1px solid rgba(255,255,255,0.08);
+            font-size: 0.85rem;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="resume-header">
+        <a href="index.html" class="brand">REAL JAYLE</a>
+
+        <a href="index.html" class="back-btn">
+            <i class="fa-solid fa-arrow-left"></i>
+            Back to Portfolio
+        </a>
+    </header>
+
+    <main>
+        <section class="resume-section">
+
+            <span class="section-kicker">MY PROFESSIONAL PROFILE</span>
+
+            <h1>My Resume</h1>
+
+            <p class="description">
+                Here is my resume. Thank you for taking the time to learn more about me.
+            </p>
+
+            <div class="resume-image-container">
+                <img
+                    src="resume.jpg"
+                    alt="Jayle Marthaniel E. Real Resume"
+                    class="resume-image"
+                >
+            </div>
+
+        </section>
+    </main>
+
+    <footer class="resume-footer">
+        © REAL JAYLE. All rights reserved.
+    </footer>
+
+</body>
+</html>
